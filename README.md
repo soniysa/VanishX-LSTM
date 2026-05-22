@@ -70,7 +70,4 @@ The project trains on Shakespearean text. As shown in the generated `visualizati
 ## 🌐 Deployment
 This project is fully compatible with Streamlit Cloud, Render, and Hugging Face Spaces. See `docs/Deployment_Guide.md` for step-by-step instructions.
 
-## 👨‍💻 Author
-**Your Name**
-- LinkedIn: [Your Profile]
-- GitHub: [Your Profile]
+
