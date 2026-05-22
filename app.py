@@ -467,7 +467,7 @@ elif page == "📊 4. Performance Proof":
                 yaxis_title='Accuracy',
                 hovermode="x unified",
                 margin=dict(l=0, r=0, t=30, b=0),
-                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(color='#ffffff'))
             )
             fig_acc.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#334155', zeroline=False)
             fig_acc.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#334155', zeroline=False)
@@ -490,7 +490,7 @@ elif page == "📊 4. Performance Proof":
                 yaxis_title='Categorical Loss',
                 hovermode="x unified",
                 margin=dict(l=0, r=0, t=30, b=0),
-                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1)
+                legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="right", x=1, font=dict(color='#ffffff'))
             )
             fig_loss.update_xaxes(showgrid=True, gridwidth=1, gridcolor='#334155', zeroline=False)
             fig_loss.update_yaxes(showgrid=True, gridwidth=1, gridcolor='#334155', zeroline=False)
